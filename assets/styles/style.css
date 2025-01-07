@@ -100,7 +100,7 @@ input:focus {
 
 .submit-button {
     background-color: var(--button-color);
-    color: white;
+    color: var(--text-color);
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
