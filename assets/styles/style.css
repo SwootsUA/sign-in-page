@@ -63,6 +63,10 @@ h1 {
     padding: 30px;
 }
 
+input:focus {
+    outline: none;
+}
+
 .radio-inputs-container {
     display: flex;
     flex-direction: column;
