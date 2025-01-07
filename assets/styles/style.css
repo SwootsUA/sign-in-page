@@ -42,25 +42,29 @@ h1 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    gap: 20px;
     width: 650px;
     min-height: 800px;
-    padding: 20px 40px;
+    padding: 20px;
 }
 
 .text-inputs-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
 }
 
 .text-inputs-container input {
     font-size: 1.15rem;
-    width: 270px;
+    flex-basis: clamp(270px, 270px, 100%);
+    flex-shrink: 1;
+    flex-grow: 1;
     height: 65px;
     border: none;
     border-radius: 5px;
-    padding: 30px;
+    padding: 25px;
+    margin: -5px 0;
 }
 
 input:focus {
