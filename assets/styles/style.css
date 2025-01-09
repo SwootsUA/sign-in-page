@@ -17,11 +17,6 @@ body {
     font-weight: 500;
 }
 
-form {
-    display: flex;    
-    justify-content: center;
-}
-
 .heading-container {
     display: flex;
     flex-direction: column;
@@ -42,8 +37,9 @@ h1 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin: 0 auto;
     gap: 20px;
-    width: 650px;
+    max-width: 650px;
     min-height: 800px;
     padding: 20px;
 }
