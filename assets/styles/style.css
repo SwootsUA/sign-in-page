@@ -53,8 +53,6 @@ h1 {
 
 .text-inputs-container input {
     font-size: 1.15rem;
-    flex-basis: clamp(270px, 270px, 100%);
-    flex-shrink: 1;
     flex-grow: 1;
     height: 65px;
     border: none;
