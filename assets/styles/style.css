@@ -17,11 +17,6 @@ body {
     font-weight: 500;
 }
 
-form {
-    display: flex;    
-    justify-content: center;
-}
-
 .heading-container {
     display: flex;
     flex-direction: column;
@@ -42,8 +37,9 @@ h1 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin: 0 auto;
     gap: 20px;
-    width: 650px;
+    max-width: 650px;
     min-height: 800px;
     padding: 20px;
 }
@@ -57,9 +53,8 @@ h1 {
 
 .text-inputs-container input {
     font-size: 1.15rem;
-    flex-basis: clamp(270px, 270px, 100%);
-    flex-shrink: 1;
-    flex-grow: 1;
+    flex: 1 1 calc(45% - 15px);
+    min-width: 160px;
     height: 65px;
     border: none;
     border-radius: 5px;
@@ -100,7 +95,7 @@ input:focus {
 
 .submit-button {
     background-color: var(--button-color);
-    color: var(--text-color);
+    color: inherit;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
